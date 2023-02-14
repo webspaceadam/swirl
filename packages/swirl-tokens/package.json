@@ -20,6 +20,6 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "build": "rm -rf dist && ts-node ./scripts/figma2style-dictionary.ts && ts-node ./scripts/build.ts"
+    "build": "rm -rf dist && npx ts-node ./scripts/figma2style-dictionary.ts && npx ts-node ./scripts/build.ts"
   }
 }
